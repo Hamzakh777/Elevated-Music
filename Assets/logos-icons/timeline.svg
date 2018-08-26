@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="889px" viewBox="0 0 34 889" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>timeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Perform" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.940904018">
+        <g id="Desktop-HD-final-design" transform="translate(-220.000000, -2379.000000)">
+            <g id="timeline" transform="translate(220.000000, 2386.000000)">
+                <path id="Line-12" d="M17.25,-6.5 C13.3840068,-6.5 10.25,-3.36599325 10.25,0.5 C10.25,4.36599325 13.3840068,7.5 17.25,7.5 C21.1159932,7.5 24.25,4.36599325 24.25,0.5 C24.25,-3.36599325 21.1159932,-6.5 17.25,-6.5 Z M17.25,-4.5 C20.0114237,-4.5 22.25,-2.26142375 22.25,0.5 C22.25,3.26142375 20.0114237,5.5 17.25,5.5 C14.4885763,5.5 12.25,3.26142375 12.25,0.5 C12.25,-2.26142375 14.4885763,-4.5 17.25,-4.5 Z M10.25,868.5 L10.25,880.5 L10.25,881.5 L11.25,881.5 L23.25,881.5 L24.25,881.5 L24.25,880.5 L24.25,868.5 L24.25,867.5 L23.25,867.5 L11.25,867.5 L10.25,867.5 L10.25,868.5 Z M12.25,868.5 L11.25,869.5 L23.25,869.5 L22.25,868.5 L22.25,880.5 L23.25,879.5 L11.25,879.5 L12.25,880.5 L12.25,868.5 Z M16.25,6.5 L16.25,868.5 L16.25,869.5 L18.25,869.5 L18.25,868.5 L18.25,6.5 L18.25,5.5 L16.25,5.5 L16.25,6.5 Z" fill="#FFF6F6" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#F6AE2D" cx="17" cy="129" r="17"></circle>
+                <circle id="Oval-Copy" fill="#F6AE2D" cx="17" cy="285" r="17"></circle>
+                <circle id="Oval-Copy-2" fill="#F6AE2D" cx="17" cy="441" r="17"></circle>
+                <circle id="Oval-Copy-4" fill="#F6AE2D" cx="17" cy="597" r="17"></circle>
+                <circle id="Oval-Copy-5" fill="#F6AE2D" cx="17" cy="753" r="17"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
