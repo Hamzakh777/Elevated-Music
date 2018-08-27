@@ -417,7 +417,7 @@ a.yellow-btn {
         margin-bottom: 2px; }
         @media (min-width: 900px) {
           .events .cards-events-container .event-card .event-info h3 {
-            font-size: 22px; } }
+            font-size: 20px; } }
       .events .cards-events-container .event-card .event-info p.event-ds {
         font-size: 12px;
         font-weight: 400;
@@ -528,7 +528,7 @@ section.newsletter form {
       background: #F6AE2D;
       color: #141414;
       font-size: 12px;
-      padding: 5px 5px;
+      padding: 5px 12px;
       border-color: transparent;
       font-weight: 500;
       text-transform: uppercase;
