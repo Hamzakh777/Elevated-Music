@@ -4,8 +4,8 @@ $('document').ready(function() {
     $('.center').slick({
         dots: true,
         infinite: false,
-        centerPadding: '100px',
         mobileFirst: true,
+        centerPadding: '100px',
         centerMode: true,
         slidesToShow: 4,
         slidesToScroll: 1,
