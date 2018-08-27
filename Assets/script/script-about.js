@@ -2,7 +2,7 @@ $('document').ready(function() {
     
     
     $('.center').slick({
-        dots: false,
+        dots: true,
         infinite: false,
         centerPadding: '100px',
         mobileFirst: true,
@@ -10,7 +10,7 @@ $('document').ready(function() {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1600,
+        autoplaySpeed: 2500,
         
         responsive:[{
             breakpoint: 1024,
