@@ -282,7 +282,7 @@ footer {
     color: #141414;
     text-align: left;
     position: absolute;
-    top: 22%;
+    top: 20%;
     left: 10%;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4); }
     @media (min-width: 610px) {
@@ -360,7 +360,12 @@ footer {
         .landing-page .articles-container .hr-line {
           width: 200px; } }
     .landing-page .articles-container .hr-line.first {
-      margin-bottom: 35px; }
+      margin-bottom: 10px; }
+      @media (min-width: 610px) {
+        .landing-page .articles-container .hr-line.first {
+          margin-bottom: 40px; } }
+    .landing-page .articles-container .hr-line.second {
+      margin-top: -20px; }
     .landing-page .articles-container .container-carousel {
       width: 100%; }
       .landing-page .articles-container .container-carousel .slick-track {
@@ -447,7 +452,7 @@ footer {
   height: 160px !important; }
 
 ul.slick-dots {
-  bottom: -60px; }
+  bottom: -40px; }
   ul.slick-dots li button {
     border: #F6AE2D 3px solid;
     border-radius: 50%;

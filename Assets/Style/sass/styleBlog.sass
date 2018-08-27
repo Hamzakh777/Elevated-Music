@@ -345,7 +345,7 @@ footer
         color: $black
         text-align: left
         position: absolute
-        top: 22%
+        top: 20%
         left: 10%
         box-shadow: 2px 2px 20px $shadow
         
@@ -425,6 +425,7 @@ footer
             border-radius: 2px
             margin: 10px auto
             
+            
             @include tablet 
                 width: 160px
                 
@@ -432,11 +433,17 @@ footer
                 width: 200px
         
         .hr-line.first
-            margin-bottom: 35px
+            margin-bottom: 10px
+            
+            @include tablet 
+                margin-bottom: 40px
+            
+        .hr-line.second
+            margin-top: -20px
             
         .container-carousel
             width: 100%
-            
+        
             .slick-track
                 height: 170px
                 
@@ -529,7 +536,7 @@ footer
 .slick-slide
     height: 160px !important
 ul.slick-dots
-    bottom: -60px
+    bottom: -40px
     
     li
         
