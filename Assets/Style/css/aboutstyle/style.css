@@ -437,15 +437,26 @@ ul.slick-dots {
       .spotify-play .content .paragraphs p span {
         color: #1ED761; }
     @media (min-width: 610px) {
-      .spotify-play .content a {
+      .spotify-play .content .playlist-btn {
         grid-area: 1/2/2/3; } }
-    .spotify-play .content a img {
+    .spotify-play .content .playlist-btn img {
       height: 145px;
       transition: all 0.2s ease-in-out; }
-      .spotify-play .content a img:hover {
+      .spotify-play .content .playlist-btn img:hover {
         height: 155px; }
       @media (min-width: 900px) {
-        .spotify-play .content a img {
+        .spotify-play .content .playlist-btn img {
           height: 150px; } }
+  .spotify-play .playlist {
+    width: 100%; }
+    .spotify-play .playlist .iframe-wrapper {
+      height: 0px;
+      width: 320px;
+      margin: 10px auto;
+      overflow: hidden;
+      transition: all 0.6s ease-in-out; }
+    .spotify-play .playlist .iframe-wrapper.active {
+      height: 400px;
+      width: 320px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -527,7 +527,7 @@ ul.slick-dots
                 span
                     color: #1ED761
                 
-        a
+        .playlist-btn
             @include tablet 
                 grid-area: 1 / 2 / 2 / 3
             
@@ -541,9 +541,19 @@ ul.slick-dots
                 @include desktop 
                     height: 150px
                 
-                
-                
-                
+    .playlist
+        width: 100%
+
+        .iframe-wrapper
+            height: 0px
+            width: 320px
+            margin: 10px auto
+            overflow: hidden
+            transition: all 0.6s ease-in-out
+            
+        .iframe-wrapper.active
+            height: 400px
+            width: 320px    
                 
                 
                 

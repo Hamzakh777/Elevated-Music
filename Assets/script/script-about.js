@@ -1,5 +1,5 @@
 $('document').ready(function() {
-    
+    playtoggler();
     
     $('.center').slick({
         dots: true,
@@ -47,3 +47,30 @@ $('document').ready(function() {
     
     
 })
+
+//function for showing and hidding the playlist
+
+function playtoggler() {
+    $('.playlist-btn').click(function() {
+        $('.iframe-wrapper').toggleClass('active');
+    });
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
