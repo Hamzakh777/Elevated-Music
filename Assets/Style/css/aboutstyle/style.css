@@ -321,7 +321,7 @@ footer {
     display: none; }
     @media (min-width: 610px) {
       .intro .down-arrow {
-        display: content; } }
+        display: inline-block; } }
     .intro .down-arrow a img {
       height: 80px; }
       @media (min-width: 610px) {
