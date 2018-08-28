@@ -1,6 +1,8 @@
 $('document').ready(function() {
     playtoggler();
     
+    scrollRevealer();
+    
     $('.center').slick({
         dots: true,
         infinite: false,
@@ -57,6 +59,82 @@ function playtoggler() {
 };
 
 
+//for scrollReveal
+function scrollRevealer() {
+    //for the landing screen
+    ScrollReveal().reveal('.intro .wrapper-nav', {
+        duration: 1000,
+        origin: 'top',
+        distance: '50px',
+        opacity: 0,
+        mobile: false
+    });
+    ScrollReveal().reveal('.intro .text-wrapper', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px',
+        opacity: 0,
+        mobile: false
+    });
+    ScrollReveal().reveal('.intro .btn', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px',
+        opacity: 0,
+        delay: 500,
+        mobile: false
+    });
+    ScrollReveal().reveal('.intro .down-arrow', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px',
+        opacity: 0,
+        delay: 800,
+        mobile: false
+    });
+    
+    //for the tracks section
+    ScrollReveal().reveal('.tracks .section-title-wrapper', {
+        duration: 2000,
+        origin: 'top',
+        distance: '100px',
+        opacity: 0,
+        mobile: false
+    });
+    ScrollReveal().reveal('.tracks .content', {
+        duration: 2000,
+        opacity: 0,
+        mobile: false
+    });
+    
+    
+    // for the spotify section
+    ScrollReveal().reveal('.spotify-play .section-title-wrapper', {
+        duration: 2000,
+        origin: 'left',
+        distance: '100px',
+        opacity: 0,
+        mobile: false
+    });
+    ScrollReveal().reveal('.spotify-play .content .paragraphs', {
+        duration: 2000,
+        origin: 'left',
+        distance: '100px',
+        opacity: 0,
+        mobile: false,
+        delay: 300
+    });
+    ScrollReveal().reveal('.spotify-play .content .playlist-btn', {
+        duration: 2000,
+        origin: 'right',
+        distance: '100px',
+        opacity: 0,
+        mobile: false,
+        delay: 600
+    });
+    
+    
+};
 
 
 
