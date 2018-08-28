@@ -546,6 +546,8 @@ main.attend {
           display: flex;
           flex-direction: column; }
           main.attend #mc_embed_signup form #mc_embed_signup_scroll .mc-field-group label {
+            margin: 0px auto;
+            text-align: center;
             font-size: 18px;
             font-weight: 400;
             margin-bottom: 10px;

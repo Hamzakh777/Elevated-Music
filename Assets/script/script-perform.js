@@ -68,7 +68,8 @@ function scrollRevealer() {
         duration: 2000,
         origin: 'left',
         distance: '50px',
-        opacity: 0
+        opacity: 0,
+        viewFactor: 0.2
     });
     ScrollReveal().reveal('.pros .pros-container', {
         duration: 2000,
