@@ -65,14 +65,14 @@ function scrollRevealer() {
     ScrollReveal().reveal('.events .line-1', {
         duration: 2000,
         origin: 'left',
-        distance: '600px',
+        distance: '400px',
         opacity: 0,
         mobile: false,
     });
     ScrollReveal().reveal('.events .line-2', {
         duration: 2000,
         origin: 'right',
-        distance: '600px',
+        distance: '400px',
         opacity: 0,
         mobile: false,
     });
