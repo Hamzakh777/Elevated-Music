@@ -374,7 +374,11 @@ footer
         transform: translateX(-50%)
         
         img
-            height: 120px
+            height: 80px
+            width: 10px
+            
+            @include tablet 
+                height: 120px
                 
                 
 //events section
@@ -620,6 +624,7 @@ main.attend
             span
                 color: $blue
     #mc_embed_signup
+        margin: 0px auto
         
         form
             width: 86%
@@ -647,11 +652,11 @@ main.attend
                             weight: 400
                         margin-bottom: 10px
                         padding: 2px 10px
-                        width: 100%
+                        width: 90%
                         
                     input
                         height: 40px
-                        width: 100%
+                        width: 90%
                         border: solid 1px $grey
                         border-radius: 6px
                         margin: 0 auto 10px auto
@@ -664,7 +669,7 @@ main.attend
                         margin: 10px auto
                 .button
                     height: 40px 
-                    width: 100%
+                    width: 90%
                     font-size: 18px
                     color: $yellow
                     background: $black
@@ -672,6 +677,7 @@ main.attend
                     border-radius: 6px
                     padding: 2px 10px
                     transition: all 0.3s ease-in-out
+                    margin: 0px auto
                     
                     &:hover
                         color: $black

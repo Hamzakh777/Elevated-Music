@@ -323,7 +323,7 @@ footer {
       .intro .down-arrow {
         display: inline-block; } }
     .intro .down-arrow a img {
-      height: 80px; }
+      height: 50px; }
       @media (min-width: 610px) {
         .intro .down-arrow a img {
           height: 90px; } }
@@ -448,13 +448,20 @@ ul.slick-dots {
         .spotify-play .content .playlist-btn img {
           height: 150px; } }
   .spotify-play .playlist {
-    width: 100%; }
+    width: 100%;
+    margin: 0px auto; }
     .spotify-play .playlist .iframe-wrapper {
       height: 0px;
       width: 320px;
       margin: 10px auto;
       overflow: hidden;
-      transition: all 0.6s ease-in-out; }
+      transition: all 0.6s ease-in-out;
+      position: relative; }
+      .spotify-play .playlist .iframe-wrapper iframe {
+        margin: 10px auto !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%); }
     .spotify-play .playlist .iframe-wrapper.active {
       height: 400px;
       width: 320px; }

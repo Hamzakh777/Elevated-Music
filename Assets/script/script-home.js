@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    scrollRevealer();
+});
+
 //for the count down timer
 (function() {
     // future date for the countdown
@@ -56,3 +60,143 @@
     }
   }, 1000);
 })();
+
+//for scrollreveal
+
+
+function scrollRevealer() {
+    //for the landing-screen
+    ScrollReveal().reveal('.wrapper-nav', {
+        duration: 1000,
+        origin: 'top',
+        distance: '30px',
+    });
+    ScrollReveal().reveal('.intro h1, .intro p', {
+        duration: 1200,
+        opacity: 0,
+        origin: 'left',
+        distance: '40px',
+    });
+    ScrollReveal().reveal('.line-intro',{
+        duration: 1600,
+        orign: 'bottom',
+        distance: '50px',
+        opacity: 0,
+        delay: 800
+    });
+    ScrollReveal().reveal('.intro a', {
+        duration: 1600,
+        orign: 'bottom',
+        distance: '50px',
+        opacity: 0,
+        delay: 800
+    });
+    ScrollReveal().reveal('#timer', {
+        duration: 1400,
+        origin: 'bottom',
+        distance: '100px',
+        opacity: 0,
+        delay: 900
+    });
+    
+    
+
+    //for the events section
+    ScrollReveal().reveal('.cards-events-container', {
+        origin: 'bottom',
+        distance: '90px',
+        duration: 1000,
+        viewFactor: 0.3
+    });
+    ScrollReveal().reveal('.events .section-title-wrapper',{
+        origin: 'top',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0, 
+        delay: 300
+    });
+   //perform section
+    ScrollReveal().reveal('.perform p', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0
+    });
+    ScrollReveal().reveal('.perform .section-title-wrapper',{
+        origin: 'top',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0, 
+        delay: 300
+    });
+    ScrollReveal().reveal('.perform a', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0, 
+        delay: 300
+    })
+    
+    
+    //for the newsletter section
+    ScrollReveal().reveal('.newsletter p', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0
+    });
+    ScrollReveal().reveal('.newsletter .section-title-wrapper',{
+        origin: 'top',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0, 
+        delay: 300
+    });
+    ScrollReveal().reveal('.newsletter form', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '50px',
+        opacity: 0, 
+        delay: 300
+    })
+    
+    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
