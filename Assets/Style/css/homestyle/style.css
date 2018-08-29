@@ -489,12 +489,11 @@ section.perform {
 section.newsletter p {
   max-width: 500px;
   color: #141414;
-  font-size: 16px;
+  font-size: 14px;
   width: 80%;
   margin: 10px auto;
   text-align: center;
-  font-weight: 300;
-  max-width: 700px; }
+  font-weight: 300; }
   @media (min-width: 610px) {
     section.newsletter p {
       font-size: 20px; } }
