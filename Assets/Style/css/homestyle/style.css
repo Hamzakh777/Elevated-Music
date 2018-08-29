@@ -496,10 +496,10 @@ section.newsletter p {
   font-weight: 300; }
   @media (min-width: 610px) {
     section.newsletter p {
-      font-size: 20px; } }
+      font-size: 16px; } }
   @media (min-width: 900px) {
     section.newsletter p {
-      font-size: 22px; } }
+      font-size: 18px; } }
 section.newsletter form {
   width: 72%;
   margin: 20px auto 30px auto;
