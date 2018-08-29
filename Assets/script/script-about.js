@@ -61,6 +61,8 @@ function playtoggler() {
 
 //for scrollReveal
 function scrollRevealer() {
+    //for the html file
+    ScrollReveal().reveal('.hidden');
     //for the landing screen
     ScrollReveal().reveal('.intro .wrapper-nav', {
         duration: 1000,
