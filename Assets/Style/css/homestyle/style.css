@@ -505,15 +505,19 @@ section.newsletter form {
   margin: 20px auto 30px auto;
   max-width: 700px; }
   section.newsletter form .inputs-container {
+    width: 100%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: column;
+    justify-content: center; }
     section.newsletter form .inputs-container input[type="email"] {
       height: 30px;
       width: 70%;
       border: 1px solid #141414;
       font-size: 12px;
       color: rgba(0, 0, 0, 0.5);
-      padding-left: 10px; }
+      padding-left: 10px;
+      border-radius: 32px;
+      margin: 0px auto; }
       @media (min-width: 610px) {
         section.newsletter form .inputs-container input[type="email"] {
           font-size: 16px;
@@ -527,24 +531,26 @@ section.newsletter form {
       width: fit-content;
       background: #F6AE2D;
       color: #141414;
-      font-size: 12px;
-      padding: 5px 12px;
+      font-size: 10px;
+      padding: 5px 25px;
       border-color: transparent;
-      font-weight: 500;
+      font-weight: 400;
       text-transform: uppercase;
       transition: 0.3s all ease-in-out;
-      margin-left: 5px; }
+      margin-left: 5px;
+      margin: 10px auto;
+      border-radius: 40px; }
       section.newsletter form .inputs-container .button:hover {
         background: #141414;
         color: #F6AE2D;
         cursor: pointer; }
       @media (min-width: 610px) {
         section.newsletter form .inputs-container .button {
-          font-size: 16px;
+          font-size: 14px;
           height: 37px; } }
       @media (min-width: 900px) {
         section.newsletter form .inputs-container .button {
-          font-size: 18px;
+          font-size: 16px;
           height: 40px; } }
 
 footer {
