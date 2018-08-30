@@ -54,7 +54,7 @@ function readMore() {
        
     })
     $("h4#exit-reading").click(function() {
-        const parentElt = jQuery(this).parent('.article-info').parent('section');
+        var parentElt = jQuery(this).parent('.article-info').parent('section');
         
         if(parentElt.hasClass("active")) {
             
