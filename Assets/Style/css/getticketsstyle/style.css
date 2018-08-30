@@ -521,15 +521,15 @@ main.events {
   main.events #event-1 .image-wrapper {
     background-image: url(../../../images/events/event1/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
   main.events #event-2 .image-wrapper {
     background-image: url(../../../images/events/event2/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
   main.events #event-3 .image-wrapper {
     background-image: url(../../../images/events/event3/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
 
 main.attend {
   width: 100%;
