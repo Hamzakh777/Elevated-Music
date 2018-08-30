@@ -230,12 +230,19 @@ footer {
       footer .footer-line {
         width: 230px; } }
   footer nav {
-    margin: 20px auto; }
+    float: left; }
+    @media (min-width: 610px) {
+      footer nav {
+        margin: 20px auto; } }
     @media (min-width: 900px) {
       footer nav {
         margin: 40px auto; } }
     footer nav ul li {
-      display: inline-block; }
+      display: block;
+      margin: 5px; }
+      @media (min-width: 610px) {
+        footer nav ul li {
+          display: inline-block; } }
       footer nav ul li a {
         text-decoration: none;
         color: #FDFFFC;
@@ -253,6 +260,28 @@ footer {
             margin-right: 35px; } }
       footer nav ul li:last-child a {
         margin-right: 0px; }
+      footer nav ul li a.get-tickets {
+        background: #38BBBD;
+        padding: 10px 20px;
+        margin-left: 0px;
+        opacity: 1;
+        margin-top: 15px; }
+        @media (min-width: 610px) {
+          footer nav ul li a.get-tickets {
+            display: none; } }
+        footer nav ul li a.get-tickets:hover {
+          color: #fff;
+          background: #E301DE; }
+    footer nav ul li.get-tickets {
+      height: 30px;
+      width: 120px;
+      position: relative;
+      border: 2px solid #FDFFFC;
+      margin: 5px;
+      margin-top: 15px; }
+      @media (min-width: 610px) {
+        footer nav ul li.get-tickets {
+          display: none; } }
   footer .wrapper {
     width: 100%; }
     footer .wrapper p {

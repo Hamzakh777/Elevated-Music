@@ -70,24 +70,28 @@ function scrollRevealer() {
         duration: 1000,
         origin: 'top',
         distance: '30px',
+        mobile: false
     });
     ScrollReveal().reveal('.intro h1, .intro p', {
         duration: 1200,
         opacity: 0,
         origin: 'left',
         distance: '40px',
+        mobile: false
     });
     ScrollReveal().reveal('.line-intro',{
         duration: 1600,
         orign: 'bottom',
         distance: '50px',
         opacity: 0,
-        delay: 800
+        delay: 800,
+        mobile: false
     });
     ScrollReveal().reveal('.intro a', {
         duration: 1600,
         orign: 'bottom',
         distance: '50px',
+        mobile: false,
         opacity: 0,
         delay: 800
     });
@@ -96,7 +100,8 @@ function scrollRevealer() {
         origin: 'bottom',
         distance: '100px',
         opacity: 0,
-        delay: 900
+        delay: 900,
+        mobile: false
     });
     
     
@@ -106,35 +111,40 @@ function scrollRevealer() {
         origin: 'bottom',
         distance: '90px',
         duration: 1000,
-        viewFactor: 0.3
+        viewFactor: 0.3,
+        mobile: false
     });
     ScrollReveal().reveal('.events .section-title-wrapper',{
         origin: 'top',
         duration: 1000,
         distance: '50px',
         opacity: 0, 
-        delay: 300
+        delay: 300,
+        mobile: false
     });
    //perform section
     ScrollReveal().reveal('.perform p', {
         origin: 'bottom',
         duration: 1000,
         distance: '50px',
-        opacity: 0
+        opacity: 0,
+        mobile: false
     });
     ScrollReveal().reveal('.perform .section-title-wrapper',{
         origin: 'top',
         duration: 1000,
         distance: '50px',
         opacity: 0, 
-        delay: 300
+        delay: 300,
+        mobile: false
     });
     ScrollReveal().reveal('.perform a', {
         origin: 'bottom',
         duration: 1000,
         distance: '50px',
         opacity: 0, 
-        delay: 300
+        delay: 300,
+        mobile: false
     })
     
     
@@ -143,21 +153,24 @@ function scrollRevealer() {
         origin: 'bottom',
         duration: 1000,
         distance: '50px',
-        opacity: 0
+        opacity: 0,
+        mobile: false
     });
     ScrollReveal().reveal('.newsletter .section-title-wrapper',{
         origin: 'top',
         duration: 1000,
         distance: '50px',
         opacity: 0, 
-        delay: 300
+        delay: 300,
+        mobile: false
     });
     ScrollReveal().reveal('.newsletter form', {
         origin: 'bottom',
         duration: 1000,
         distance: '50px',
         opacity: 0, 
-        delay: 300
+        delay: 300,
+        mobile: false
     })
     
     
