@@ -545,8 +545,8 @@ section.perform
         
     .content
         width: 80%
-        margin: 0px auto
-        max-width: 500px
+        margin-left: 80px
+        max-width: 800px
         display: flex
         justify-content: center
         flex-direction: column
@@ -554,7 +554,6 @@ section.perform
             text-align: left
             max-width: 500px
             width: 80%
-            margin: 10px auto
             font-size: 14px
             letter-spacing: 2px
             font-weight: 300
@@ -570,11 +569,11 @@ section.perform
 
         a
             max-width: 100px
-            margin: 10px auto
             text-align: center
 
             @include desktop 
                 margin-bottom: 40px 
+                
 //newsletter section
 
 section.newsletter
@@ -699,12 +698,14 @@ footer
                     text-transform: uppercase
                     font-size: 12px
                     margin-right: 10px
+                    margin-left: 16px
                     opacity: 0.6
                     transition: .3s all ease-in-out
                     cursor: pointer
                     &:hover 
                         opacity: 1
-                    
+                    @include tablet 
+                        margin-left: 0px
                     @include desktop
                         font-size: 16px
                         margin-right: 35px
@@ -734,6 +735,7 @@ footer
                 border: 2px solid $bg-white
                 margin: 5px
                 margin-top: 15px
+                margin-left: 16px
                 
                 @include tablet 
                     display: none
