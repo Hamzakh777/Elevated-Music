@@ -451,7 +451,6 @@ section.perform {
   background: #141414;
   width: 100%;
   overflow: auto;
-  text-align: center;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5); }
   @media (min-width: 610px) {
     section.perform {
@@ -459,26 +458,36 @@ section.perform {
   @media (min-width: 900px) {
     section.perform {
       min-height: 250px; } }
-  section.perform p {
-    max-width: 500px;
+  section.perform .content {
     width: 80%;
-    margin: 10px auto;
-    font-size: 14px;
-    letter-spacing: 2px;
-    font-weight: 300; }
-    @media (min-width: 610px) {
-      section.perform p {
-        font-size: 16px; } }
-    @media (min-width: 900px) {
-      section.perform p {
-        font-size: 18px; } }
-    section.perform p span {
-      color: #38BBBD; }
-  section.perform a {
-    margin-bottom: 30px; }
-    @media (min-width: 900px) {
-      section.perform a {
-        margin-bottom: 40px; } }
+    margin: 0px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    section.perform .content p {
+      text-align: left;
+      max-width: 500px;
+      width: 80%;
+      margin: 10px auto;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-weight: 300; }
+      @media (min-width: 610px) {
+        section.perform .content p {
+          font-size: 16px; } }
+      @media (min-width: 900px) {
+        section.perform .content p {
+          font-size: 18px; } }
+      section.perform .content p span {
+        color: #38BBBD; }
+    section.perform .content a {
+      max-width: 100px;
+      margin: 10px auto;
+      text-align: center; }
+      @media (min-width: 900px) {
+        section.perform .content a {
+          margin-bottom: 40px; } }
 
 @media (min-width: 610px) {
   section.newsletter {

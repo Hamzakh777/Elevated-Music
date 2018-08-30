@@ -535,7 +535,6 @@ section.perform
     background: $black
     width: 100%
     overflow: auto
-    text-align: center
     box-shadow: 0 0 20px 2px $shadow
     
     
@@ -543,29 +542,39 @@ section.perform
         min-height: 200px
     @include desktop 
         min-height: 250px
-    
-    p 
-        max-width: 500px
+        
+    .content
         width: 80%
-        margin: 10px auto
-        font-size: 14px
-        letter-spacing: 2px
-        font-weight: 300
-        
-        @include tablet
-            font-size: 16px
-        
-        @include desktop
-            font-size: 18px
-        
-        span    
-            color: $blue
-    
-    a
-        margin-bottom: 30px
-        
-        @include desktop 
-            margin-bottom: 40px 
+        margin: 0px auto
+        max-width: 500px
+        display: flex
+        justify-content: center
+        flex-direction: column
+        p 
+            text-align: left
+            max-width: 500px
+            width: 80%
+            margin: 10px auto
+            font-size: 14px
+            letter-spacing: 2px
+            font-weight: 300
+
+            @include tablet
+                font-size: 16px
+
+            @include desktop
+                font-size: 18px
+
+            span    
+                color: $blue
+
+        a
+            max-width: 100px
+            margin: 10px auto
+            text-align: center
+
+            @include desktop 
+                margin-bottom: 40px 
 //newsletter section
 
 section.newsletter
