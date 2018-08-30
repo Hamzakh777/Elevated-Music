@@ -437,15 +437,15 @@ a.yellow-btn {
   .events .cards-events-container #event1 .event-img {
     background-image: url(../../../images/events/event1/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
   .events .cards-events-container #event2 .event-img {
     background-image: url(../../../images/events/event2/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
   .events .cards-events-container #event3 .event-img {
     background-image: url(../../../images/events/event3/img.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: top; }
 
 section.perform {
   background: #141414;
