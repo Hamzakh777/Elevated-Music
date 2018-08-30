@@ -536,6 +536,7 @@ section.perform
     width: 100%
     overflow: auto
     box-shadow: 0 0 20px 2px $shadow
+    position: relative
     
     
     @include tablet
@@ -546,7 +547,8 @@ section.perform
     .content
         width: 80%
         margin-left: 20px
-        max-width: 800px
+        max-width: 600px
+        float: left
         display: flex
         justify-content: center
         flex-direction: column
@@ -555,6 +557,7 @@ section.perform
             
         @include desktop 
             margin-left: 80px
+            
         p 
             text-align: left
             max-width: 500px
@@ -579,7 +582,18 @@ section.perform
 
             @include desktop 
                 margin-bottom: 40px 
-                
+            
+    .img
+        display: none
+        @include desktop 
+            
+            display: inline-block
+            position: relative
+            top: -30px
+            left: 5%
+            img
+                height: 200px
+
 //newsletter section
 
 section.newsletter

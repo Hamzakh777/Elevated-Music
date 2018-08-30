@@ -451,7 +451,8 @@ section.perform {
   background: #141414;
   width: 100%;
   overflow: auto;
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  position: relative; }
   @media (min-width: 610px) {
     section.perform {
       min-height: 200px; } }
@@ -461,7 +462,8 @@ section.perform {
   section.perform .content {
     width: 80%;
     margin-left: 20px;
-    max-width: 800px;
+    max-width: 600px;
+    float: left;
     display: flex;
     justify-content: center;
     flex-direction: column; }
@@ -493,6 +495,16 @@ section.perform {
       @media (min-width: 900px) {
         section.perform .content a {
           margin-bottom: 40px; } }
+  section.perform .img {
+    display: none; }
+    @media (min-width: 900px) {
+      section.perform .img {
+        display: inline-block;
+        position: relative;
+        top: -30px;
+        left: 5%; }
+        section.perform .img img {
+          height: 200px; } }
 
 @media (min-width: 610px) {
   section.newsletter {
