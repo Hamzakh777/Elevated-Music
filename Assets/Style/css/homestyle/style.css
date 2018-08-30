@@ -412,7 +412,7 @@ a.yellow-btn {
         .events .cards-events-container .event-card .event-info {
           bottom: 4%; } }
       .events .cards-events-container .event-card .event-info h3 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         margin-bottom: 2px; }
         @media (min-width: 900px) {
